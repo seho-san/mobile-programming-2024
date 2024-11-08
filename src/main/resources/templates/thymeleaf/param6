@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    Item Name =  <h1 th:text="${itemname}">여기 입력한 내용</h1>
+    Item Price = <h1 th:text="${itemprice}">여기 입력한 내용</h1>
+
+</body>
+</html>
